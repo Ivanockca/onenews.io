@@ -24,14 +24,6 @@ body {
             text-decoration: none;
             padding: 0 10px;
             font-weight: bold;
-          
-        }
-
-        section {
-            padding: 20px;
-            margin: 10px;
-            background-color: #fff;
-            border-radius: 5px;
         }
 
         footer {
@@ -43,9 +35,23 @@ body {
             bottom: 0;
             width: 100%;
         }
+
         gd {
             color: #6d8cc5;
         }
-        section p {
-           font-weight: bold;
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+
+          opis {
+              font-weight: bold;
+              text-align: center;
+        }
+
+        propos{
+              text-align: center;
+              color: red;
+              font-weight: bold;
         }
