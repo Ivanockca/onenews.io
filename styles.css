@@ -22,7 +22,9 @@
             text-decoration: none;
             padding: 0 10px;
             font-weight: bold;
+            margin-right: 10px;
         }
+        
 
         footer {
             background-color: #333;
