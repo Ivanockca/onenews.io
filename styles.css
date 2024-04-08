@@ -3,7 +3,12 @@
             margin: 0;
         }
 
-
+        header {
+            background-color: #1f4ca5;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
 
         nav {
             background-color: #10347c;
