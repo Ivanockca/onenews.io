@@ -57,15 +57,31 @@
         }
 
         .container {
-              display: flex;
+            display: flex;
+            align-items: flex-start;
         }
 
         .text {
-              flex: 1;
-              padding: 10px;
+            flex: 1;
+            padding: 10px;
         }
 
         .table-container {
-              flex: 1;
-              padding: 10px;
+            flex: 1;
+            padding: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
         }
