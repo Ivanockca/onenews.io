@@ -55,4 +55,19 @@ body {
               color: red;
               font-weight: bold;
         }
-  
+
+        .container {
+              display: flex;
+              align-items: flex-start;
+        }
+
+        .text {
+              flex: 1;
+              padding: 10px;
+        }
+
+        .table-container {
+              flex-grow: 1;
+              padding: 10px;
+              overflow: auto;
+        }
