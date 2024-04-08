@@ -55,33 +55,12 @@
         .container {
             display: flex;
         }
-        
+
         .text {
-            flex: 1;
+            flex: 1; /* Растягивает текст на всю доступную ширину */
         }
 
-        .table-container {
-            flex: 1;
-            margin-left: 20px;
-        }
-
-        /* Дополнительные стили для красоты */
-        table {
-            width: 10%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        footer {
-            margin-top: 20px;
-            text-align: center;
+        .table {
+            flex: 2; /* Занимает 2/3 доступной ширины */
+            margin-left: 20px; /* Отступ от текста */
         }
