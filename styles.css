@@ -63,11 +63,13 @@ body {
         }
 
         .text {
+              flex: 1;
               padding: 10px;
               margin-right: 80px;
         }
 
         .table-container {
+              flex: 1;
               padding: 10px;
               margin-left: 80px;
         }
