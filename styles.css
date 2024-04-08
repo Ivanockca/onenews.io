@@ -56,20 +56,16 @@
               font-weight: bold;
         }
 
-        .container {
-              display: flex;
-              justify-content: space-between;
-              align-items: flex-start;
-        }
+  .container {
+    display: flex;
+  }
 
-        .text {
-              flex: 1;
-              padding: 10px;
-              margin-right: 80px;
-        }
+  .text {
+    flex: 1;
+    padding: 10px;
+  }
 
-        .table-container {
-              flex: 1;
-              padding: 10px;
-              margin-left: 80px;
-        }
+  .table-container {
+    flex: 1;
+    padding: 10px;
+  }
