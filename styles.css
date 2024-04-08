@@ -13,6 +13,7 @@
         nav {
             background-color: #10347c;
             padding: 10px 0;
+            padding: 0 10px ;
             text-align: center;
         }
 
@@ -72,7 +73,7 @@
 
         th, td {
             border: 1px solid black;
-            padding: 2px;
+            padding: 4px;
             text-align: left;
         }
 
