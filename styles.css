@@ -56,20 +56,3 @@ body {
               font-weight: bold;
         }
   
-        .container {
-              display: flex;
-              align-items: center;
-        }
-
-        .text {
-              flex: 1;
-              padding: 10px;
-        }
-
-        .table-container {
-              flex: 1;
-              padding: 10px;
-        }
-
-        
-
