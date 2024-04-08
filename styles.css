@@ -1,6 +1,8 @@
-        body {
+body {
             font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
             margin: 0;
+            padding: 0;
         }
 
         header {
@@ -22,7 +24,16 @@
             text-decoration: none;
             padding: 0 10px;
             font-weight: bold;
-            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
 
         gd {
@@ -36,50 +47,11 @@
 
           opis {
               font-weight: bold;
+              text-align: center;
         }
 
         propos{
               text-align: center;
               color: red;
               font-weight: bold;
-        }
-
-        .container {
-            display: flex;
-            align-items: flex-start;
-        }
-
-        .text {
-            flex: 1;
-            padding: 5px;
-        }
-
-        .table-container {
-            flex: 1;
-            padding: 10px;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 4px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
