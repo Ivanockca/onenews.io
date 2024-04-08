@@ -1,69 +1,68 @@
-        body {
+body {
+    margin: 0; /* Видаляє зовнішні відступи (margin) для body */
+    padding: 0; /* Видаляє внутрішні відступи (padding) для body */
+}
 
-        }
+header {
+    background-color: #1f4ca5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
 
-        header {
-            background-color: #1f4ca5;
-            color: #fff;
-            text-align: center;
-            margin-left: 0;
-            margin-right: 0;
-            width: 100%;
-        }
+nav {
+    background-color: #10347c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
 
-        nav {
-            background-color: #10347c;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    font-weight: bold;
+}
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0 10px;
-            font-weight: bold;
-        }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0;
-        }
+gd {
+    color: #6d8cc5;
+}
 
-        gd {
-            color: #6d8cc5;
-        }
+img {
+    width: 100px;
+    height: auto;
+}
 
-        img {
-            width: 100px;
-            height: auto;
-        }
+opis {
+    font-weight: bold;
+}
 
-          opis {
-              font-weight: bold;
-        }
+propos {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
 
-        propos{
-              text-align: center;
-              color: red;
-              font-weight: bold;
-        }
+.container {
+    display: flex;
+}
 
-        .container {
-            display: flex;
-        }
+.text {
+    flex: 1;
+}
 
-        .text {
-            flex: 1; /* Растягивает текст на всю доступную ширину */
-        }
-
-        .table {
-            flex: 2; /* Занимает 2/3 доступной ширины */
-            margin-left: 20px; /* Отступ от текста */
-        }
+.table {
+    flex: 2;
+    margin-left: 20px;
+}
