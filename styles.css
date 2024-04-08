@@ -56,16 +56,16 @@
               font-weight: bold;
         }
 
-  .container {
-    display: flex;
-  }
+        .container {
+              display: flex;
+        }
 
-  .text {
-    flex: 1;
-    padding: 10px;
-  }
+        .text {
+              flex: 1;
+              padding: 10px;
+        }
 
-  .table-container {
-    flex: 1;
-    padding: 10px;
-  }
+        .table-container {
+              flex: 1;
+              padding: 10px;
+        }
