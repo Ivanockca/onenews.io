@@ -47,11 +47,23 @@
 
           opis {
               font-weight: bold;
-              text-align: center;
         }
 
         propos{
               text-align: center;
               color: red;
               font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        .table {
+            flex: 2; 
+            margin-left: 20px; 
         }
