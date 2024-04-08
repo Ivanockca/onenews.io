@@ -56,18 +56,18 @@ body {
               font-weight: bold;
         }
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+        .container {
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start;
+        }
 
-  .text {
-    padding: 10px;
-    margin-right: 50px;
-  }
+        .text {
+              padding: 10px;
+              margin-right: 80px;
+        }
 
-  .table-container {
-    padding: 10px;
-    margin-left: 50px;
-  }
+        .table-container {
+              padding: 10px;
+              margin-left: 80px;
+        }
